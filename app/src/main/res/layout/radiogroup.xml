@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center_horizontal">
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/l1"
+        >
 
     <Button
         android:layout_width="wrap_content"
@@ -31,36 +39,43 @@
         android:text="D"
         android:id="@+id/btn3"
         android:layout_gravity="center_vertical" />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/l1"
+            android:layout_marginTop="20dp"
+            >
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="A"
+        android:text="E"
         android:id="@+id/btn4"
         android:layout_gravity="center_vertical" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="B"
+        android:text="F"
         android:id="@+id/btn5"
         android:layout_gravity="center_vertical" />
 
-    <Mater
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="C"
+        android:text="G"
         android:id="@+id/btn6"
         android:layout_gravity="center_vertical" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="D"
+        android:text="H"
         android:id="@+id/btn7"
         android:layout_gravity="center_vertical" />
 
+    </LinearLayout>
 
 
 
-
-</LinearLayout>
+</RelativeLayout>

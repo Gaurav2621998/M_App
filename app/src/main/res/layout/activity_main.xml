@@ -159,9 +159,6 @@
 
     </RelativeLayout>
         
-        <android.support.v7.widget.CardView
-            android:layout_width=""
-            android:layout_height=""></android.support.v7.widget.CardView>
 
     <ExpandableListView
         android:layout_margin="12dp"
